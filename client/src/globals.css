@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-border overscroll-contain touch-manipulation;
+  }
+  
+  body {
+    @apply bg-black text-white max-h-[100dvh] overflow-x-hidden select-none;
+  }
+}
+
+@layer utilities {
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* UTILITIES */
+  .invert-white {
+    @apply invert brightness-0 transition;
+  }
+
+   /* TYPOGRAPHY */
+  
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
